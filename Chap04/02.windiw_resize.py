@@ -10,7 +10,7 @@ cv2.namedWindow(title2, cv2.WINDOW_NORMAL)      # 윈도우 생성 - 크기 변�
 
 cv2.imshow(title1, image)       # 행렬 원소를 영상으로 표시
 cv2.imshow(title2, image)
-cv2.resizeWindow(title1, 400,300)   # 윈도우 크기 변경
+cv2.resizeWindow(title1, 400,300)   # 윈도우 크기 변경 (열, 행)
 cv2.resizeWindow(title2, 400,300)
 cv2.waitKey(0)  # 키 이벤트 대기
 cv2.destroyAllWindows() # 열린 모든 윈도우 제거
